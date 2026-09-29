@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "enums": [
+    {"name": "Status", "values": ["ACTIVE"]}
+  ],
+  "entities": [
+    {"name": "User", "fields": [
+      {"name": "Id", "type": "integer"},
+      {"name": "Age", "type": "integer"},
+      {"name": "Status", "type": "string", "enum": "Status"}
+    ]}
+  ]
+}
